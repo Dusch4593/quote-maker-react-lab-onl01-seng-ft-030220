@@ -9,7 +9,7 @@ import {
 
 
 describe('Quotes Actions', () => {
-  describe('addQuote(quote: {})', () => {
+  describe('addQuote()', () => {
     it('should return an Object with a type of "ADD_QUOTE" and a quote object', () => {
       const quote = {
         content: 'test quote',
